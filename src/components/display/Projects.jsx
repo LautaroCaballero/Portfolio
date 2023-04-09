@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects() {
   return (
     <div className="w-[90%] lg:w-[80%] m-auto font-famil mt-72 lg:mt-48">
-      <div className="w-[100%] h-[1px] bg-gray-400 mb-4"></div>
+      <div className="w-[100%] h-[1px] bg-gray-400 mb-4 dark:bg-indigo-500"></div>
       <h2 className="text-xl font-semibold">
         Una lista de algunos proyectos que realicé.
       </h2>
@@ -61,7 +61,7 @@ export default function Projects() {
           </a>
         </div>
       </div>
-      <div className="w-[100%] h-[1px] bg-gray-400 mb-4"></div>
+      <div className="w-[100%] h-[1px] bg-gray-400 dark:bg-indigo-500 mb-4"></div>
     </div>
   );
 }
