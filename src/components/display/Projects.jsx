@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className="text-xl font-semibold">
         Una lista de algunos proyectos que realicé.
       </h2>
-      <div className="lg:flex pb-5 pt-6 mb-10">
+      <div className="lg:flex pt-6 mb-10">
         <img
           className="h-[250px]"
           src="https://i.postimg.cc/hvtJfQXG/Tasklist.jpg"
@@ -63,7 +63,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="lg:flex pb-6 scroll-pt-28">
-        <img className="h-[260px]" src={Pietro} alt="" />
+        <img className="h-[263px]" src={Pietro} alt="" />
         <div className="lg:pl-4 mt-5 lg:mt-0">
           <p className="text-lg font-bold">Pietro Pastas Italianas</p>
           <p className="text-xl">
