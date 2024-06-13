@@ -1,4 +1,5 @@
 import React from "react";
+import Pietro from "../../assets/Pietro-web.png";
 
 export default function Projects() {
   return (
@@ -53,6 +54,28 @@ export default function Projects() {
           <a
             className=""
             href="https://e-commerce-redux-nu.vercel.app/"
+            target="blank"
+          >
+            <button className="mt-14 lg:ml-36 w-[200px] h-8 rounded-md shadow-lg bg-indigo-500 hover:bg-indigo-700">
+              Ir al sitio
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="lg:flex pb-6 scroll-pt-28">
+        <img className="h-[260px]" src={Pietro} alt="" />
+        <div className="lg:pl-4 mt-5 lg:mt-0">
+          <p className="text-lg font-bold">Pietro Pastas Italianas</p>
+          <p className="text-xl">
+            Este es un proyecto creado para una empresa familiar, la cual fue
+            hecha a medida y con todas las funcionalidades pedidas por el
+            cliente. Esta esta construida con Context, y su lista de productos
+            esta linkeada a un Google Sheet para que el cliente pueda agregar,
+            quitar o modificarla de una forma sencilla.
+          </p>
+          <a
+            className=""
+            href="https://pietropastas.vercel.app/"
             target="blank"
           >
             <button className="mt-14 lg:ml-36 w-[200px] h-8 rounded-md shadow-lg bg-indigo-500 hover:bg-indigo-700">
